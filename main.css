@@ -1,0 +1,153 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#content {
+    width: 75%;
+}
+
+#tableContainer {
+    margin-top: 10px;
+}
+
+#tableContainer label {
+    font-size: larger;
+}
+
+table {
+    font-size: normal;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+th,
+td {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+th:last-child,
+td:last-child {
+    border-right: none;
+}
+
+.table-0 th,
+.table-0 td {
+    border-right: 1px solid darkblue !important;
+}
+
+.table-0 th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-0 td {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.table-0 table {
+    border: 3px solid darkblue !important;
+}
+
+.table-0 label {
+    color: darkblue;
+}
+
+.table-1 th,
+.table-1 td {
+    border-right: 1px solid darkgreen !important;
+}
+
+.table-1 th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-1 td {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.table-1 table {
+    border: 3px solid darkgreen !important;
+}
+
+.table-1 label {
+    color: darkgreen;
+}
+
+
+a {
+    padding: 0 !important;
+}
+
+#notes {
+    font-size: 1em;
+}
+
+#notes h3 {
+    margin-top: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+#notes li {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 1em;
+}
+
+.form-select {
+    font-size: 1em;
+}
+
+@media screen and (max-width: 1400px) {
+    body {
+        font-size: 1.6vw;
+    }
+
+    #content {
+        width: 100%;
+        margin: 0 10%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    h6 {
+        font-size: 1em;
+    }
+
+    table {
+        font-size: small;
+    }
+}
+
+.buttonContainer {
+    margin: 5px auto;
+}
+
+#chart {
+    height: 400px;
+    margin-top: 30px;
+}

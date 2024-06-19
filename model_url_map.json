@@ -1,0 +1,17 @@
+{
+    "GPT-4-Turbo (0125)": "https://openai.com/",
+    "GPT-3.5-Turbo (0125)": "https://openai.com/",
+    "gemma-2b-it": "https://huggingface.co/google/gemma-2b-it",
+    "gemma-7b-it": "https://huggingface.co/google/gemma-7b-it",
+    "Mistral-7B-Instruct-v0.2": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+    "CodeLlama-7b-hf": "https://huggingface.co/codellama/CodeLlama-7b-hf",
+    "CodeLlama-7b-Instruct-hf": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+    "CodeLlama-7b-Python-hf": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf",
+    "CodeLlama-13b-Instruct-hf": "https://huggingface.co/codellama/CodeLlama-13b-Instruct-hf",
+    "CodeLlama-34b-Instruct-hf": "https://huggingface.co/codellama/CodeLlama-34b-Instruct-hf",
+    "starcoder2-3b": "https://huggingface.co/bigcode/starcoder2-3b",
+    "starcoder2-7b": "https://huggingface.co/bigcode/starcoder2-7b",
+    "starcoder2-15b": "https://huggingface.co/bigcode/starcoder2-15b",
+    "Magicoder-CL-7B": "https://huggingface.co/ise-uiuc/Magicoder-CL-7B",
+    "Magicoder-S-CL-7B": "https://huggingface.co/ise-uiuc/Magicoder-S-CL-7B"
+}

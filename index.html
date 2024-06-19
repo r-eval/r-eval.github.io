@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;400&display=swap" rel="stylesheet">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>REval Leaderboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="icon" href="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/1024px/1f9d1-1f4bb.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <div id="content" class="container-fluid d-flex flex-column align-items-center gap-3">
+        <h1 class="text-nowrap mt-5">REval Leaderboard</h1>
+        <div style="margin: 6px">
+            <h4 class="fw-normal text-center" style="line-height: 1.5">
+                Junkai Chen<sup>1*</sup>, Zhiyuan Pan<sup>1*</sup>, Xing Hu<sup>1&dagger;</sup>, Zhenhao Li<sup>2</sup>, Ge
+                Li<sup>3</sup>,
+                Xin Xia<sup>1</sup>
+            </h4>
+            <h5 class="fw-light text-center" style="line-height: 1.5">
+                <sup>1</sup>Zhejiang University,
+                <sup>2</sup>Concordia University,
+                <sup>3</sup>Peking University
+            </h5>
+            <br>
+            <h6 class="fw-light text-center" style="line-height: 1.2">
+                <sup>*</sup>Equal Contribution <br>
+                <sup>&dagger;</sup>Corresponding Author
+            </h6>
+        </div>
+        <div class="d-flex flex-row justify-content-center gap-3 buttonContainer">
+            <a href="javascript:alert('Under review process. Coming soon~')"><img
+                    src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+                    alt="github" class="img-fluid"></a>
+            <a href="javascript:alert('Under review process. Coming soon~')"><img
+                    src="https://img.shields.io/badge/contribute-blue.svg?style=for-the-badge&logo=github"
+                    alt="pr" class="img-fluid"></a>
+            <a href="https://arxiv.org/abs/2403.16437"><img
+                    src="https://img.shields.io/badge/ARXIV-2403.16437-red.svg?style=for-the-badge&logo=arxiv" alt="paper"
+                    class="img-fluid"></a>
+        </div>
+
+        <div id="lineChartContainer" class="container-fluid d-flex flex-row">
+            <canvas id="chart"></canvas>
+        </div>
+
+        <div class="container-fluid d-flex flex-row flex-nowrap" id="tableContainer">
+        </div>
+
+        <div id="notes">
+            <h3>📚 BibTeX</h3>
+            <div
+                style="font-size: 1em; text-align: left; background-color: #F6F5F2; padding: 20px; border-radius: 10px;">
+                <pre style="white-space: pre-wrap;" id="bibtex"></pre>
+            </div>
+
+        </div>
+
+        <div id="notes">
+            <h3>🤗 Acknowledgement</h3>
+            Thanks for the authors of <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a> and <a href="https://fudanselab-classeval.github.io/leaderboard.html">ClassEval</a> for sharing the
+            template source code and scripts. In addition to our REval leaderboard, there is a diverse set of benchmarks and leaderboards to comprehensively understand LLM coding ability. Please check them out at the <a href="https://evalplus.github.io/leaderboard.html">EvalPlus</a> website.
+        </div>
+        
+        <br>
+
+    </div>
+
+
+    <script src="/get_ref_data.js"></script>
+    <script src="/get_chart_data.js"></script>
+    <script src="/get_table_data.js"></script>
+
+
+</body>
+
+</html>
