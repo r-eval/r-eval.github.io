@@ -1,0 +1,3 @@
+[submodule "REval"]
+	path = REval
+	url = git@github.com:r-eval/REval.git
