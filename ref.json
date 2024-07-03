@@ -1,3 +1,3 @@
 {
-    "bibtex": "@inproceedings{chen2025evaluating,\n\ttitle={Reasoning Runtime Behavior of a Program with LLM: How Far Are We?},\n\tauthor={Chen, Junkai and Pan, Zhiyuan and Hu, Xing and Li, Zhenhao and Li, Ge and Xia, Xin},\n\tbooktitle={Proceedings of the IEEE/ACM 47th International Conference on Software Engineering},\n\tyear={2025},\n}"
+    "bibtex": "@inproceedings{chen2025reasoning,\n\ttitle={Reasoning Runtime Behavior of a Program with LLM: How Far Are We?},\n\tauthor={Chen, Junkai and Pan, Zhiyuan and Hu, Xing and Li, Zhenhao and Li, Ge and Xia, Xin},\n\tbooktitle={Proceedings of the IEEE/ACM 47th International Conference on Software Engineering},\n\tyear={2025},\n}"
 }
