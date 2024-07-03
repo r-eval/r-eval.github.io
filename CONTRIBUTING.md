@@ -1,6 +1,6 @@
 # Contributing
 
-We greatly welcome contributions to the benchmark data.
+We greatly welcome contributions to benchmark results.
 
 To add evaluation results of new models, simply
 
